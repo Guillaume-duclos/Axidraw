@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8"/>
     <title>My Webpack</title>
-    <link href="css/style.scss" rel="stylesheet">
-    <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
-    <canvas>
-
-    </canvas>
+    <div class="canvas">
+      <canvas/>
+    </div>
+    <div class="sliders">
+      <label id="label1"></label>
+      <input type="range" min="0" max="100" class="slider" id="slider_1"/>
+      <button id="resetButton">Récupérer la valeur d'aujourd'hui</button>
+    </div>
   </body>
 </html>
